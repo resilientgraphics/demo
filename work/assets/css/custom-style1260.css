@@ -1,0 +1,104 @@
+/*Write your custom css in this file.*/
+.article-category-change-logs ul {
+  border: 1px solid #e6e6e6;
+  list-style-type: none;
+  padding: 0;
+}
+
+.article-category-change-logs li:nth-child(odd) {
+  background: #f5f5f5;
+  padding: 5px;
+}
+
+.article-category-change-logs li:nth-child(even) {
+  background: #e6e6e6;
+  padding: 5px;
+}
+
+#help-page-view-content-area {
+  font-size: 15px;
+}
+
+#help-page-view-content-area p {
+  margin-bottom: 15px;
+}
+
+#help-page-view-content-area pre {
+  line-height: initial;
+}
+
+#help-page-view-content-area li {
+  padding: 5px;
+}
+
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/inter/inter-v12-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/inter/inter-v12-latin-600.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/inter/inter-v12-latin-800.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body,
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+.public-navbar .nav-item {
+  font-weight: 600;
+}
+
+.public-navbar .nav-item:nth-child(4) .nav-link {
+  background: transparent;
+  border: 2px solid #00bbc2;
+  padding: 7px 20px !important;
+  margin-top: 8px;
+  color: #00bbc2;
+  border-radius: 25px;
+  margin: 5px 15px 5px 15px;
+
+}
+
+.help-category-box:hover {
+  background: #00bbc240;
+  border-radius: 5px;
+}
+
+.help-search-box {
+  border-radius: 5px;
+}
+
+.shadow-sm {
+  box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .075) !important;
+}
+
+figcaption{
+   display: none;
+}
+#pre-loader .app-loader{
+  right:49%;
+}
